@@ -1,0 +1,436 @@
+.alert
+{
+	width: 50%;
+	margin: 0 auto;
+}
+
+body
+{
+	background-color: #10C032;
+	font-family: verdana;
+}
+
+button
+{
+	font-weight: bold !important;
+}
+
+#alert
+{
+	margin-top: 60px;
+	margin-left: 280px;
+	display: none;
+	height: auto;
+}
+
+#logo
+{
+	margin-top: 10px;
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	display: block;
+}
+
+.loginGreeting
+{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px green;
+}
+
+#indexBody
+{
+	background-color: white;
+	height: 250px;
+	width: 350px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	border: solid;
+	border-color: #2EAA17;
+}
+
+#loginForm
+{
+	background-color: white;
+	height: 300px;
+	width: 350px;
+	margin: auto;
+	margin-top: 10px;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	border: solid;
+	border-color: #2EAA17;
+}
+
+#indexBody .indexLink
+{
+	margin-left: 50px;
+	margin-top: 35px;
+}
+
+#indexBody .indexLink a
+{
+	width: 220px;
+}
+
+.form-group
+{
+	padding-top: 35px;
+}
+
+#backButton
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#newTicketForm
+{
+	margin-top: 10px !important;
+	background-color: white;
+	height: 780px;
+	width: 350px;
+	margin: auto;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	border: solid;
+	border-color: #2EAA17;
+}
+
+#inptMap
+{
+	margin: auto;
+	width: 320px; height: 250px;
+}
+
+#formImage
+{
+	margin-top: 25px;
+}
+
+#newTicketForm button
+{
+	margin-left: 95px;
+	margin-top: 20px;
+}
+
+#formAddress
+{
+	margin-top: 5px;
+}
+
+#formAddress input
+{
+	width: 320px;
+	margin: auto;
+}
+
+#formAddress button
+{
+	margin: auto;
+	margin-left: 90px;
+	margin-top: 5px;
+}
+
+#btnLogin
+{
+	margin-left: 110px;
+	margin-top: 20px;
+}
+
+#logOut
+{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+#registerForm
+{
+	background-color: white;
+	height: 600px;
+	width: 350px;
+	margin: auto;
+	margin-top: 10px;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	border: solid;
+	border-color: #2EAA17;
+}
+
+#sTableId
+{
+	background-color: white;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	width: 850px !important;
+}
+
+
+i
+{
+	margin-right: -120px;
+}
+
+#searchFilter
+{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#newReportButton
+{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#imageContainer
+{
+	margin-left: 650px;
+	background-color: green;
+	padding: 25px;
+	border: solid;
+	border-radius: 25px;
+	min-width: 306px;
+	display: none;
+	border-color: #2EAA17;
+	box-shadow: 10px 10px 5px green;
+}
+
+#mapContainer
+{
+	background-color: green;
+	padding: 25px;
+	border: solid;
+	border-radius: 25px;
+	width: 650px;
+	margin-right: 700px;
+	display: none;
+	border-color: #2EAA17;
+	box-shadow: 10px 10px 5px green;
+}
+
+#selectFilterStatus, #selectSorter, #selectPagination
+{
+	width: 200px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+#selectPagination
+{
+	width: 50px;
+}
+
+#filters
+{
+	margin-top: 10px !important;
+	background-color: white;
+	width: 300px !important;
+	margin: auto;
+	padding: 25px;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	border: solid;
+	border-color: #2EAA17;
+}
+
+#datumFilter
+{
+	margin-right: 555px;
+	margin-top: 20px;
+}
+
+#datumFilter input
+{
+	width: 200px;
+}
+
+#datumFilter button
+{
+	margin-right: 55px;
+}
+
+#statusFilter
+{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#statusFilter button
+{
+	margin-top: 10px;
+}
+
+#filterTitle
+{
+	font-weight: bold;
+}
+
+#filterContent
+{
+	display: none;
+}
+
+#imgModal, #mapModal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+#img01, #map {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Add Animation */
+.modal-content{  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.open
+{
+	background-color: #F33333;
+}
+
+.solved
+{
+	background-color: #37BF1E;
+}
+
+.rejected
+{
+	background-color: #209AE6;
+}
+
+#ticketBody
+{
+	background-color: white;
+	height: 880px;
+	width: 350px;
+	margin: auto;
+	margin-top: 10px;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	border: solid;
+	border-color: #2EAA17;
+}
+
+#reportBody
+{
+	background-color: white;
+	height: 950px;
+	width: 400px;
+	margin: auto;
+	margin-top: 10px;
+	box-shadow: 10px 10px 5px green;
+	border-radius: 5px;
+	border: solid;
+	border-color: #2EAA17;
+}
+
+#statusBtn
+{
+	margin-right: 1022px;
+}
+
+#map
+{
+	width: 250px;
+	height: 250px;
+}
+
+
+#imageButtons
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.imageSwitch:nth-child(1)
+{
+	margin-right: 20px;
+}
+
+.unsolved
+{
+	display: none;
+}
+
+#sorter
+{
+	margin-top: 30px;
+	margin-right: 800px;
+}
+
+#sorter button
+{
+	margin-top: 10px;
+}
+
+#reportMap
+{
+	width: 350px;
+	height: 250px;
+	margin: auto;
+}
+
+#pageNumLabel
+{
+	margin-left: 10px;
+	margin-top: 15px;
+}
